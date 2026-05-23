@@ -1,0 +1,111 @@
+/* ===== VARIABLES ===== */
+:root {
+  --color-primary: #E50914;
+  --color-bg: #0a0a0f;
+  --color-surface: #141420;
+  --color-card: #1a1a2e;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #cccccc;
+  --color-text-muted: #888888;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --font-primary: 'Poppins', sans-serif;
+  --font-title: 'Bebas Neue', sans-serif;
+}
+
+/* ====== GENERAL ====== */
+body {
+  font-family: var(--font-primary);
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  padding-top: 70px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-title);
+  letter-spacing: 0.05em;
+}
+
+/* ====== NAVBAR ======= */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.92);
+  border-bottom: 1px solid var(--color-border);
+  backdrop-filter: blur(6px);
+}
+
+.navbar .nav-link {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+.navbar .nav-link:hover {
+  color: var(--color-text-primary);
+}
+
+.navbar .btn {
+  white-space: nowrap;
+}
+
+.navbar .navbar-brand {
+  letter-spacing: 0.1em;
+  color: var(--color-primary);
+  font-family: var(--font-title);
+  font-size: 1.6rem;
+}
+
+.search-wrapper {
+  position: relative;
+  width: 200px;
+}
+
+.search-icon-input {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  z-index: 10;
+}
+
+.navbar .search-input {
+  background-color: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--color-text-primary);
+  padding-left: 28px;
+  width: 100%;
+}
+
+.navbar .search-input::placeholder {
+  color: var(--color-text-muted);
+}
+
+.navbar .search-input:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: var(--color-text-primary);
+  box-shadow: none;
+}
+
+@media (max-width: 900px) {
+  .navbar .btn-sm {
+    font-size: 0.75rem;
+    padding: 3px 8px;
+  }
+  
+  .search-wrapper {
+    width: 150px;
+  }
+}
+
+.btn-danger {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn-danger:hover {
+  background-color: #c2070f;
+  border-color: #c2070f;
+}
