@@ -1,0 +1,22 @@
+
+/* Tarjeta del Login */
+.login-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Títulos con tipografía  para el formulario */
+.login-title {
+  font-family: var(--font-primary) !important;
+  font-weight: 600;
+  font-size: 1.75rem;
+  letter-spacing: normal;
+}
+
+.fs-7 {
+  font-size: 0.85rem;
+}
