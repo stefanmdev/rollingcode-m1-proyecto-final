@@ -1,12 +1,12 @@
 @import url("./style.css");
 
-/* 2. ASEGURAR EL FONDO OSCURO DEL BODY */
+
 body {
   background-color: var(--color-bg);
   color: var(--color-text-primary);
 }
 
-/* 3. TARJETA CONTENEDORA  */
+
 .login-card {
   background-color: var(--color-surface) ;
   border: 1px solid var(--color-border) ;
@@ -16,7 +16,7 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
 }
 
-/* 4. TITULO */
+
 .login-title {
   font-family: var(--font-primary) ;
   font-weight: 600;
@@ -25,7 +25,6 @@ body {
   color: var(--color-text-primary) ;
 }
 
-/* 5. INPUTS OSCUROS TRASLÚCIDOS */
 .login-input {
   background-color: rgba(255, 255, 255, 0.05) ;
   border: 1px solid rgba(255, 255, 255, 0.15) ;
@@ -45,7 +44,6 @@ body {
   color: #ffffff ;
 }
 
-/* 6. ICONO DEL OJO */
 .input-group-text.login-input {
   display: flex;
   align-items: center;
@@ -55,7 +53,6 @@ body {
   color: var(--color-text-muted) ;
 }
 
-/* 7. ENLACES Y BOTONES */
 .forgot-password-link {
   color: #c2070f ;
   font-size: 0.85rem;
