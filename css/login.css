@@ -20,3 +20,42 @@
 .fs-7 {
   font-size: 0.85rem;
 }
+.login-input {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  color: var(--color-text-primary) !important;
+  padding: 10px 12px;
+  font-size: 0.95rem;
+}
+
+.login-input::placeholder {
+  color: var(--color-text-muted) !important;
+}
+
+
+.login-input:focus {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  border-color: var(--color-primary) !important;
+  box-shadow: 0 0 0 1px var(--color-primary) !important;
+}
+
+/* Icono para la contraseña */
+.input-group-text.login-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+}
+
+
+.forgot-password-link {
+  color: #c2070f;
+  font-size: 0.85rem;
+  transition: color 0.2s ease;
+}
+
+.forgot-password-link:hover {
+  color: var(--color-primary);
+  text-decoration: underline !important;
+}
