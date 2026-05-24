@@ -22,3 +22,8 @@
     border: 2px solid var(--color-border);
     padding: 3px 10px;
 }
+
+.color-mi-lista{
+    background-color: var(--color-border);
+    
+}
