@@ -1,0 +1,67 @@
+:root{
+    --color-sd:#a1111a;
+    --color-js: #1d2c5e;
+    --color-fm: #06482a;
+    --color-nr: #7e581b;
+    --color-text:#888888;
+}
+
+main{
+    p{
+        color: var(--color-text);
+    }
+
+    h5,h2{
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+}
+
+
+.person1{
+    background-color: var(--color-sd);
+    color:#d86e75;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.person2{
+    background-color: var(--color-js);
+    color: #3d5bbb;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.person3{
+    background-color: var(--color-fm);
+    color: #0f7949;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person4{
+    background-color: var(--color-nr);
+    color: #b68d4c;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
