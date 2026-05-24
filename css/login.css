@@ -2,14 +2,14 @@
 
 /* 2. ASEGURAR EL FONDO OSCURO DEL BODY */
 body {
-  background-color: var(--color-bg) !important;
-  color: var(--color-text-primary) !important;
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
 }
 
-/* 3. TARJETA CONTENEDORA (Ahora sí va a leer --color-surface) */
+/* 3. TARJETA CONTENEDORA  */
 .login-card {
-  background-color: var(--color-surface) !important;
-  border: 1px solid var(--color-border) !important;
+  background-color: var(--color-surface) ;
+  border: 1px solid var(--color-border) ;
   border-radius: 12px;
   width: 100%;
   max-width: 420px;
@@ -18,31 +18,31 @@ body {
 
 /* 4. TITULO */
 .login-title {
-  font-family: var(--font-primary) !important;
+  font-family: var(--font-primary) ;
   font-weight: 600;
   font-size: 1.75rem;
   letter-spacing: normal;
-  color: var(--color-text-primary) !important;
+  color: var(--color-text-primary) ;
 }
 
 /* 5. INPUTS OSCUROS TRASLÚCIDOS */
 .login-input {
-  background-color: rgba(255, 255, 255, 0.05) !important;
-  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  background-color: rgba(255, 255, 255, 0.05) ;
+  border: 1px solid rgba(255, 255, 255, 0.15) ;
   color: #ffffff !important; /* Fuerza a que el texto escrito sea blanco */
   padding: 10px 12px;
   font-size: 0.95rem;
 }
 
 .login-input::placeholder {
-  color: var(--color-text-muted) !important;
+  color: var(--color-text-muted);
 }
 
 .login-input:focus {
-  background-color: rgba(255, 255, 255, 0.08) !important;
-  border-color: var(--color-primary) !important;
-  box-shadow: 0 0 0 1px var(--color-primary) !important;
-  color: #ffffff !important;
+  background-color: rgba(255, 255, 255, 0.08) ;
+  border-color: var(--color-primary) ;
+  box-shadow: 0 0 0 1px var(--color-primary);
+  color: #ffffff ;
 }
 
 /* 6. ICONO DEL OJO */
@@ -50,32 +50,32 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.05) !important;
-  border-left: none !important;
-  color: var(--color-text-muted) !important;
+  background-color: rgba(255, 255, 255, 0.05) ;
+  border-left: none ;
+  color: var(--color-text-muted) ;
 }
 
 /* 7. ENLACES Y BOTONES */
 .forgot-password-link {
-  color: #c2070f !important;
+  color: #c2070f ;
   font-size: 0.85rem;
 }
 
 .forgot-password-link:hover {
-  color: var(--color-primary) !important;
-  text-decoration: underline !important;
+  color: var(--color-primary);
+  text-decoration: underline ;
 }
 
 .btn-ingresar {
-  background-color: var(--color-primary) !important;
-  border-color: var(--color-primary) !important;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary) ;
   border-radius: 6px;
   font-size: 1rem;
 }
 
 .btn-ingresar:hover {
-  background-color: #c2070f !important;
-  border-color: #c2070f !important;
+  background-color: #c2070f ;
+  border-color: #c2070f ;
 }
 
 .fs-7 {
@@ -95,7 +95,7 @@ body {
 
 /* Títulos con tipografía  para el formulario */
 .login-title {
-  font-family: var(--font-primary) !important;
+  font-family: var(--font-primary) ;
   font-weight: 600;
   font-size: 1.75rem;
   letter-spacing: normal;
@@ -105,22 +105,22 @@ body {
   font-size: 0.85rem;
 }
 .login-input {
-  background-color: rgba(255, 255, 255, 0.05) !important;
-  border: 1px solid rgba(255, 255, 255, 0.15) !important;
-  color: var(--color-text-primary) !important;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--color-text-primary);
   padding: 10px 12px;
   font-size: 0.95rem;
 }
 
 .login-input::placeholder {
-  color: var(--color-text-muted) !important;
+  color: var(--color-text-muted) ;
 }
 
 
 .login-input:focus {
-  background-color: rgba(255, 255, 255, 0.08) !important;
-  border-color: var(--color-primary) !important;
-  box-shadow: 0 0 0 1px var(--color-primary) !important;
+  background-color: rgba(255, 255, 255, 0.08) ;
+  border-color: var(--color-primary) ;
+  box-shadow: 0 0 0 1px var(--color-primary) ;
 }
 
 /* Icono para la contraseña */
@@ -141,5 +141,5 @@ body {
 
 .forgot-password-link:hover {
   color: var(--color-primary);
-  text-decoration: underline !important;
+  text-decoration: underline;
 }
