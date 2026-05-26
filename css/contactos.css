@@ -1,31 +1,21 @@
-:root{
-    --color-primary:  #E50914;
-    --color-formu: rgba(255, 255, 255, 0.08);
-    --color-text:#888888;
-    --color-direc: #cccccc;
-}
 
 .formu{
-    background-color: var(--color-formu);
-   border: 1px solid var(--color-text);
-   color: var(--color-text);
+    background-color: var(--color-surface);
+   border: 1px solid var(--color-border)
+   color:var(--color-text-secondary);
     &::placeholder{
-color: var(--color-text);
+color: var(--color-text-muted);
 
     }
 
     &:focus{
-        background-color: var(--color-formu);
-        color: #ffffff;
+        background-color: var(--color-card);
+        border-color: var(--color-primary);
+        color: var(--color-text-primary);
 
     }
 }
 
-.btn-env{
-    background-color: var(--color-primary);
-    color: white;
-    text-align: center;
-}
 
 .bg-robot{
     background-color: var(--color-primary);
@@ -35,14 +25,9 @@ color: var(--color-text);
 }
 
 .bg-title{
-    color: var(--color-text);
+    color: var(--color-text-muted);
 }
 
 .bg-direc{
-    color: var(--color-direc);
-}
-
-h2{
-    font-family: 'Poppins', sans-serif;
-    
+    color: var(--color-text-secondary);
 }
