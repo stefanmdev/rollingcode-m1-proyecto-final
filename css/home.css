@@ -262,3 +262,66 @@
     font-size: 0.40 rem;
   }
 }
+
+/* ===== PROMO SECTION ===== */
+.promo-section {
+  padding: 2rem 0;
+}
+
+.promo-banner {
+  background: linear-gradient(135deg, #1a0000 0%, #3d0000 50%, #1a0000 100%);
+  border: 1px solid rgba(229, 9, 20, 0.3);
+  border-radius: 10px;
+  padding: 2rem 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.promo-tag {
+  font-size: 0.75rem;
+  color: var(--color-primary);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.promo-title {
+  font-size: 1.5rem;
+  color: var(--color-text-primary);
+  margin-bottom: 0.25rem;
+  font-family: var(--font-primary);
+}
+
+.promo-sub {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.promo-btn {
+  white-space: nowrap;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.promo-btn:hover {
+  background-color: #c2070f;
+  border-color: #c2070f;
+}
+
+@media (max-width: 576px) {
+  .promo-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .promo-title {
+    font-size: 1.2rem;
+  }
+}
