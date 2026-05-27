@@ -241,6 +241,42 @@
   .movie-card img {
     height: 100px;
   }
+
+  .movie-card-title {
+    font-size: 0.65rem;
+    display: none;
+  }
+
+  /* Se separa botones del carousel de las imágenes */
+  #carouselCategories .carousel-control-prev {
+    left: -5px;
+  }
+
+  #carouselCategories .carousel-control-next {
+    right: -5px;
+  }
+
+  /* Botones para ambos carousel */
+  #carouselMovies .carousel-control-prev,
+  #carouselMovies .carousel-control-next,
+  #carouselCategories .carousel-control-prev,
+  #carouselCategories .carousel-control-next {
+    width: 40px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  #carouselMovies .carousel-control-prev,
+  #carouselCategories .carousel-control-prev {
+    left: -5px;
+  }
+
+  #carouselMovies .carousel-control-next,
+  #carouselCategories .carousel-control-next {
+    right: -5px;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 820px) {
@@ -324,4 +360,61 @@
   .promo-title {
     font-size: 1.2rem;
   }
+}
+
+/* ===== CATEGORIES SECTION ===== */
+.categories-pills {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.category-pill {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--color-text-secondary);
+  font-size: 0.85rem;
+  padding: 5px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: var(--font-primary);
+}
+
+.category-pill:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--color-text-primary);
+}
+
+.category-pill.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #ffffff;
+}
+
+#carouselCategories .carousel-control-prev,
+#carouselCategories .carousel-control-next {
+  width: 40px;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: background-color 0.2s ease;
+  z-index: 3;
+}
+
+#carouselCategories .carousel-control-prev:hover,
+#carouselCategories .carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#carouselCategories .carousel-inner {
+  overflow: hidden;
+}
+
+#carouselCategories .carousel-item {
+  transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
