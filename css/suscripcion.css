@@ -1,0 +1,17 @@
+.contenedor-principal{
+    margin:30px;
+}
+.elegi-plan{
+    font-family: var(--font-primary);
+}
+.color-box{
+    background-color: var(--color-surface);
+}
+
+
+.color-texto{
+    color:var(--color-text-secondary);
+}
+.color-popular{
+    border: 1px ;
+}
