@@ -13,7 +13,6 @@
 .contador-categoria {
     font-family: var(--font-primary);
     font-size: 0.9rem;
-    /* Un gris claro que se lee perfecto sobre el fondo negro */
     color: #b3b3b3; 
     letter-spacing: 0.02em;
 }
