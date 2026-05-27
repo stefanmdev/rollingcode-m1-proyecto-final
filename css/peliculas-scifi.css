@@ -30,3 +30,27 @@
     background-color: var(--color-primary);
     border-color: var(--color-primary);
 }
+/* --- TARJETAS DE PELÍCULAS --- */
+.tarjeta-pelicula {
+    transition: transform 0.3s ease;
+}
+
+.tarjeta-pelicula:hover {
+    transform: scale(1.04) translateY(-4px); 
+}
+
+.tarjeta-pelicula img {
+    object-fit: cover;
+    height: 265px; 
+}
+
+.titulo-pelicula {
+    font-family: var(--font-primary); 
+    font-size: 0.85rem; 
+    font-weight: 400; 
+    color: var(--color-text-secondary); 
+    text-transform: none; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
