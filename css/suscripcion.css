@@ -7,11 +7,28 @@
 .color-box{
     background-color: var(--color-surface);
 }
-
+.color-box:hover{
+  transform: translateY(-8px) scale(1.03); 
+}
 
 .color-texto{
     color:var(--color-text-secondary);
 }
 .color-popular{
-    border: 1px ;
+    border: 2px solid var(--color-primary);
+    position: relative;
+}
+.etiqueta-popular{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: var(--color-text-primary);
+    background-color: var(--color-primary);
+    font-family: var(--font-primary);
+}
+.color-tilde{
+    i{
+        color: var(--color-primary);
+    }
 }
