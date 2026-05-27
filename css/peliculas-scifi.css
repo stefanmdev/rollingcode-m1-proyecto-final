@@ -54,3 +54,25 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+/* --- PAGINACIÓN --- */
+.pagination .boton-pagina {
+    background-color: transparent;
+    color: var(--color-text-primary);
+    border: 1px solid var(--color-border);
+    font-size: 14px;
+    padding: 8px 14px;
+    transition: all 0.3s ease;
+}
+
+.pagination .page-item.active .boton-pagina {
+    background-color: var(--color-primary) !important;
+    border-color: var(--color-primary) !important;
+    color: var(--color-text-primary) !important;
+}
+
+.pagination .boton-pagina:hover {
+    border-color: var(--color-text-primary);
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--color-text-primary);
+}
