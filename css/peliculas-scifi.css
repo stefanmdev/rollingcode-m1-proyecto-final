@@ -3,32 +3,44 @@
 /* --- ENCABEZADO DE LA CATEGORÍA --- */
 .titulo-categoria {
     font-family: var(--font-primary); 
-    font-size: 1.65rem; 
+    font-size: 1.95rem; 
     font-weight: 700; 
     color: var(--color-text-primary);
     text-transform: none; 
     letter-spacing: -0.02em; 
 }
 
+.contador-categoria {
+    font-family: var(--font-primary);
+    font-size: 0.9rem;
+    /* Un gris claro que se lee perfecto sobre el fondo negro */
+    color: #b3b3b3; 
+    letter-spacing: 0.02em;
+}
 /* --- BOTONES DE FILTROS --- */
 .boton-filtro {
-    padding: 6px 16px;
-    font-size: 13px;
+    padding: 8px 22px;
+    font-size: 16px;
+    font-weight: 500;
     background-color: transparent;
-    color: var(--color-text-primary);
-    border: 1px solid var(--color-border);
+    color: var(--color-text-muted); 
+    border: 1px solid rgba(255, 255, 255, 0.15); 
     border-radius: 20px;
     cursor: pointer;
     transition: all 0.3s ease;
+    text-decoration: none; 
+    display: inline-block;
 }
 
 .boton-filtro:hover {
+    color: var(--color-text-primary); 
     border-color: var(--color-text-primary);
 }
 
 .boton-filtro.activo {
     background-color: var(--color-primary);
-    border-color: var(--color-primary);
+    border-color: var(--color-primary); 
+    color: #ffffff;
 }
 /* --- TARJETAS DE PELÍCULAS --- */
 .tarjeta-pelicula {
