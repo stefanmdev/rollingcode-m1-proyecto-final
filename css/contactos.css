@@ -1,33 +1,57 @@
-
-.formu{
-    background-color: var(--color-surface);
-   border: 1px solid var(--color-border)
-   color:var(--color-text-secondary);
-    &::placeholder{
-color: var(--color-text-muted);
-
-    }
-
-    &:focus{
-        background-color: var(--color-card);
-        border-color: var(--color-primary);
-        color: var(--color-text-primary);
-
-    }
+.contact-title{
+    color: var(--color-text-primary);
+    margin-bottom: 1.5rem;
 }
 
+.contact-item{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 1.5rem;
+}
 
-.bg-robot{
+.contact-icon{
     background-color: var(--color-primary);
-    padding: 15px;
-    color: #e68a8e;
-    border-radius: 5px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    flex-shrink: 0;
 }
 
 .bg-title{
     color: var(--color-text-muted);
+    font-size: 0.85rem;
+    margin-bottom: 2px;
 }
 
 .bg-direc{
     color: var(--color-text-secondary);
+    margin: 0;
+    font-size: 0.9rem;
 }
+
+.formu,
+ .formu:focus,
+  .formu:active{
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    color: var(--color-text-primary);
+}
+
+.formu:-webkit-autofill,
+ .formu:-webkit-autofill:hover,
+  .formu:-webkit-autofill:focus,
+   .formu:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px var(--color-surface) inset;
+    -webkit-text-fill-color: var(--color-text-primary);
+}
+
+.formu:focus{
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 1px var(--color-primary);
+}
+.formu::placeholder{
+    color: var(--color-text-muted);
+}
+
