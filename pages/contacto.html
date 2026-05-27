@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Streamix - Mirá películas y series online cuando quieras. Suscribite y disfrutá de contenido ilimitado."
-    />
+    <meta name="description" content="Streamix - Contacto" />
     <meta name="author" content="RollingCode School - Grupo Streamix" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -26,12 +23,12 @@
     />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/contactos.css" />
-    <title>Streamix</title>
+    <title>Contacto - Streamix</title>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <div class="container">
+        <div class="container-fluid">
           <!-- LOGO -->
           <a class="navbar-brand" href="../index.html">STREAMIX</a>
           <button
@@ -83,92 +80,99 @@
       </nav>
     </header>
     <main>
-      <section class="container ">
-        <div class="row justify-content-between py-4">
-          <article class="col-md-4 py-4">
-            <h2 class="">Ponete en contacto</h2>
-            <div class="d-flex align-items-center my-3">
-              <div class="px-3">
-                <i class="bi bi-robot bg-robot"></i>
+      <section class="container py-5">
+        <div class="row justify-content-between">
+          <article class="col-12 col-md-4 py-4">
+            <h2 class="contact-title">Ponete en contacto</h2>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="bi bi-geo-alt-fill"></i>
               </div>
-              <div class="d-flex flex-column ">
-                <p class="bg-title my-0">Dirección </p>
-                   <p class="bg-direc">  Av. Corrientes 1234, Piso 8 Buenos Aires, Argentina</p>
-                
-              </div>
-            </div>
-            <div class="d-flex align-items-center my-4">
-              <div class="px-3">
-                <i class="bi bi-robot bg-robot"></i>
-              </div>
-              <div class="d-flex flex-column">
-                <p class="bg-title my-0 ">Email</p>
-                <p class="bg-direc ">  contacto@streamix.com</p>
-                
+              <div>
+                <p class="bg-title">Dirección</p>
+                <p class="bg-direc">
+                  Av. Corrientes 1234, Piso 8, Buenos Aires, Argentina
+                </p>
               </div>
             </div>
-            <div class="d-flex align-items-center ">
-              <div class="px-3 ">
-                <i class="bi bi-robot bg-robot"></i>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="bi bi-envelope-fill"></i>
               </div>
-              <div class="d-flex flex-column">
-                <p class="bg-title my-0">Teléfono</p>
-                <p class="bg-direc ">  +54 11 4567-8900</p>
+              <div>
+                <p class="bg-title">Email</p>
+                <p class="bg-direc">contacto@streamix.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="bi bi-telephone-fill"></i>
+              </div>
+              <div>
+                <p class="bg-title">Teléfono</p>
+                <p class="bg-direc">+54 11 4567-8900</p>
               </div>
             </div>
           </article>
-          <article class="col-md-6">
-            <div>
-              <form action="../index.html" method="get">
-                <div class="mb-3 text-start">
-                  <label for="inputNombre" class="form-label bg-title">Nombre</label>
-                  <input
-                    type="text"
-                    class="form-control formu"
-                    id="inputNombre"
-                    placeholder="Tu nombre"
-                    required
-                  />
-                </div>
-                <div class="mb-3 text-start">
-                  <label for="InputEmail" class="form-label bg-title">Email</label>
-                  <input
-                    type="email"
-                    class="form-control formu"
-                    id="InputEmail"
-                    placeholder="tu@email.com"
-                    required
-                  />
-                </div>
-                <div class="mb-3 text-start">
-                  <label for="inputAsunto" class="form-label bg-title">Asunto</label>
-                  <input
-                    type="text"
-                    class="form-control formu"
-                    id="inputAsunto"
-                    placeholder="Consulta sobre..."
-                    required
-                  />
-                </div>
-                <div class="mb-3 text-start">
-                  <label for="inputComentario" class="form-label bg-title"
-                    >Mensaje</label
-                  >
-                  <textarea
-                    class="form-control formu"
-                    id="inputComentario"
-                    rows="4"
-                    placeholder="Escribí tu consulta aquí..."
-                    required
-                  ></textarea>
-                </div>
-                <div>
-                  <button type="submit" class="btn btn-danger w-100" >Enviar mensaje
-                    <i class="bi bi-send ms-2"></i>
-                  </button>
-                </div>
-              </form>
-            </div>
+          <article class="col-12 col-md-6 py-4">
+            <form action="./contacto.html">
+              <div class="mb-3">
+                <label for="inputNombre" class="form-label bg-title"
+                  >Nombre</label
+                >
+                <input
+                  type="text"
+                  class="form-control formu"
+                  id="inputNombre"
+                  placeholder="Tu nombre"
+                  minlength="2"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="inputEmail" class="form-label bg-title"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  class="form-control formu"
+                  id="inputEmail"
+                  placeholder="tu@email.com"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="inputAsunto" class="form-label bg-title"
+                  >Asunto</label
+                >
+                <input
+                  type="text"
+                  class="form-control formu"
+                  id="inputAsunto"
+                  placeholder="Consulta sobre..."
+                  minlength="3"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="inputMensaje" class="form-label bg-title"
+                  >Mensaje</label
+                >
+                <textarea
+                  class="form-control formu"
+                  id="inputMensaje"
+                  rows="4"
+                  placeholder="Escribí tu consulta aquí..."
+                  minlength="10"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-danger w-100">
+                Enviar mensaje
+                <i class="bi bi-send ms-2"></i>
+              </button>
+            </form>
           </article>
         </div>
       </section>
@@ -201,7 +205,7 @@
             <h6 class="footer-col-title">Navegación</h6>
             <ul class="list-unstyled">
               <li>
-                <a href="./about.html" class="footer-link"
+                <a href="./acerca-de-nosotros.html" class="footer-link"
                   >Acerca de nosotros</a
                 >
               </li>
