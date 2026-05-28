@@ -379,14 +379,10 @@
   cursor: pointer;
   transition: all 0.2s ease;
   font-family: var(--font-primary);
+  text-decoration: none;
 }
 
 .category-pill:hover {
-  background: rgba(255, 255, 255, 0.15);
-  color: var(--color-text-primary);
-}
-
-.category-pill.active {
   background: var(--color-primary);
   border-color: var(--color-primary);
   color: #ffffff;
@@ -418,3 +414,4 @@
 #carouselCategories .carousel-item {
   transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
+
