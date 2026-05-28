@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Streamix - Mirá películas y series online cuando quieras. Suscribite y disfrutá de contenido ilimitado."
-    />
+    <meta name="description" content="Streamix - Mirá películas y series online cuando quieras. Suscribite y disfrutá de contenido ilimitado." />
     <meta name="author" content="RollingCode School - Grupo Streamix" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -14,16 +11,11 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/detalle-pelicula.css" />
     <title>Streamix</title>
@@ -34,56 +26,36 @@
         <div class="container-fluid">
           <!-- LOGO -->
           <a class="navbar-brand" href="../index.html">STREAMIX</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarMain"
-            aria-controls="navbarMain"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarMain">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link" href="../index.html">Inicio</a>
+                <a class="nav-link" href="./peliculas-scifi.html">Películas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Series</a>
+                <a class="nav-link" href="./series-comedia.html">Series</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Películas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Novedades</a>
+                <a class="nav-link" href="./detalle-peliculas.html">Novedades</a>
               </li>
             </ul>
             <!-- BUSCADOR + BOTONES -->
             <div class="d-flex align-items-center gap-2">
               <div class="search-wrapper">
                 <i class="bi bi-search search-icon-input"></i>
-                <input
-                  class="form-control form-control-sm search-input"
-                  type="search"
-                  placeholder="Buscar..."
-                  aria-label="Buscar"
-                />
+                <input class="form-control form-control-sm search-input" type="search" placeholder="Buscar..." aria-label="Buscar" />
               </div>
-              <a href="./login.html" class="btn btn-outline-light btn-sm"
-                >Iniciar sesión</a
-              >
-              <a href="./suscripcion.html" class="btn btn-danger btn-sm"
-                >Suscribirse</a
-              >
+              <a href="./login.html" class="btn btn-outline-light btn-sm">Iniciar sesión</a>
+              <a href="./suscripcion.html" class="btn btn-danger btn-sm">Suscribirse</a>
             </div>
           </div>
         </div>
       </nav>
     </header>
     <main>
-        <!--Seccion detalle de la pelicula-->
+      <!--Seccion detalle de la pelicula-->
       <section class="container pt-5">
         <div class="d-flex flex-column flex-lg-row gap-4">
           <div class="col-12 col-md-4 col-lg-3 text-center text-md-start">
@@ -97,9 +69,7 @@
           </div>
 
           <div class="d-flex flex-column">
-            <p class="text-center cartel-pelicula rounded-1 border border-0">
-              Pelicula
-            </p>
+            <p class="text-center cartel-pelicula rounded-1 border border-0">Pelicula</p>
             <h2>Proyecto Salvación</h2>
             <div class="d-flex align-items-center gap-2 text-secondary small">
               <span>2026</span>
@@ -108,21 +78,15 @@
               <span>•</span>
               <span>Estreno en STREAMIX</span>
             </div>
-            <p class="colores pt-2 pb-2">
-              Proyecto Salvación sigue a Ryland Grace, el único superviviente de una desesperada misión espacial para salvar a la Tierra de una catástrofe solar.
-            </p>
+            <p class="colores pt-2 pb-2">Proyecto Salvación sigue a Ryland Grace, el único superviviente de una desesperada misión espacial para salvar a la Tierra de una catástrofe solar.</p>
             <div class="d-flex flex-row gap-2">
               <p class="rounded-5 color-bordes">Drama</p>
               <p class="rounded-5 color-bordes">Aventura</p>
               <p class="rounded-5 color-bordes">Comedia</p>
             </div>
             <div class="d-flex gap-2">
-              <button class="btn bg-white d-flex gap-1 color-play">
-                <i class="bi bi-play-fill"></i>Reproducir
-              </button>
-              <button class="btn color-mi-lista text-white d-flex gap-1 ">
-                <i class="bi bi-plus"></i>Mi lista
-              </button>
+              <button class="btn bg-white d-flex gap-1 color-play"><i class="bi bi-play-fill"></i>Reproducir</button>
+              <button class="btn color-mi-lista text-white d-flex gap-1"><i class="bi bi-plus"></i>Mi lista</button>
             </div>
             <div class="my-2 d-flex flex-row gap-3">
               <div>
@@ -153,38 +117,26 @@
         <div class="tarjetas-contenedor container">
           <div class="tarjeta">
             <div class="tarjeta-imagen-contenedor">
-              <img
-                src="https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
-                alt="Portada Interstellar"
-              />
+              <img src="https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg" alt="Portada Interstellar" />
             </div>
             <div class="tarjeta-pie">Interstellar</div>
           </div>
           <div class="tarjeta">
             <div class="tarjeta-imagen-contenedor">
-              <img
-                src="https://www.themoviedb.org/t/p/w600_and_h900_face/hBRK1izFxIH3Nh6vax4ssOHSHVd.jpg"
-                alt="Portada The Martian"
-              />
+              <img src="https://www.themoviedb.org/t/p/w600_and_h900_face/hBRK1izFxIH3Nh6vax4ssOHSHVd.jpg" alt="Portada The Martian" />
             </div>
             <div class="tarjeta-pie">Marte (The Martian)</div>
           </div>
           <div class="tarjeta">
             <div class="tarjeta-imagen-contenedor">
-              <img
-                src="https://www.themoviedb.org/t/p/w600_and_h900_face/yqRMohCVo3TpkFYQrYrcQees7FS.jpg"
-                alt="Portada de Gravedad"
-              />
+              <img src="https://www.themoviedb.org/t/p/w600_and_h900_face/yqRMohCVo3TpkFYQrYrcQees7FS.jpg" alt="Portada de Gravedad" />
             </div>
             <div class="tarjeta-pie">Gravedad</div>
           </div>
-          
+
           <div class="tarjeta">
             <div class="tarjeta-imagen-contenedor">
-              <img
-                src="https://www.themoviedb.org/t/p/w600_and_h900_face/aKQpqc4fIdin98arbqpJ0RS6T0z.jpg"
-                alt="Portada de Ad Astra"
-              />
+              <img src="https://www.themoviedb.org/t/p/w600_and_h900_face/aKQpqc4fIdin98arbqpJ0RS6T0z.jpg" alt="Portada de Ad Astra" />
             </div>
             <div class="tarjeta-pie">Ad Astra</div>
           </div>
@@ -218,17 +170,9 @@
           <div class="col-12 col-md-4 col-lg-4 mb-4 text-center">
             <h6 class="footer-col-title">Navegación</h6>
             <ul class="list-unstyled">
-              <li>
-                <a href="./about.html" class="footer-link"
-                  >Acerca de nosotros</a
-                >
-              </li>
-              <li>
-                <a href="./suscripcion.html" class="footer-link"
-                  >Planes y precios</a
-                >
-              </li>
-              <li><a href="./404.html" class="footer-link">Ayuda</a></li>
+              <li><a href="./acerca-de-nosotros.html" class="footer-link">Acerca de nosotros</a></li>
+              <li><a href="./suscripcion.html" class="footer-link">Planes y precios</a></li>
+              <li><a href="./contacto.html" class="footer-link">Ayuda</a></li>
             </ul>
           </div>
 
@@ -236,23 +180,16 @@
           <div class="col-12 col-md-4 col-lg-4 mb-4 text-center">
             <h6 class="footer-col-title">Contacto</h6>
             <ul class="list-unstyled">
-              <li>
-                <a href="./contacto.html" class="footer-link"
-                  >Formulario de contacto</a
-                >
-              </li>
-              <li><a href="#" class="footer-link">Soporte técnico</a></li>
-              <li><a href="#" class="footer-link">Términos de uso</a></li>
+              <li><a href="./contacto.html" class="footer-link">Consultas</a></li>
+              <li><a href="./404.html" class="footer-link">Soporte técnico</a></li>
+              <li><a href="./404.html" class="footer-link">Términos de uso</a></li>
             </ul>
           </div>
         </div>
 
         <!-- BOTTOM -->
         <div class="footer-bottom text-center">
-          <p>
-            &copy; 2026 Streamix · Todos los derechos reservados · RollingCode
-            School
-          </p>
+          <p>&copy; 2026 Streamix · Todos los derechos reservados · RollingCode School</p>
         </div>
       </div>
     </footer>

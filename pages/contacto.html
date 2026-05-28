@@ -11,16 +11,11 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/contactos.css" />
     <title>Contacto - Streamix</title>
@@ -31,49 +26,29 @@
         <div class="container-fluid">
           <!-- LOGO -->
           <a class="navbar-brand" href="../index.html">STREAMIX</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarMain"
-            aria-controls="navbarMain"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarMain">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link" href="../index.html">Inicio</a>
+                <a class="nav-link" href="./peliculas-scifi.html">Películas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Series</a>
+                <a class="nav-link" href="./series-comedia.html">Series</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Películas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Novedades</a>
+                <a class="nav-link" href="./detalle-peliculas.html">Novedades</a>
               </li>
             </ul>
             <!-- BUSCADOR + BOTONES -->
             <div class="d-flex align-items-center gap-2">
               <div class="search-wrapper">
                 <i class="bi bi-search search-icon-input"></i>
-                <input
-                  class="form-control form-control-sm search-input"
-                  type="search"
-                  placeholder="Buscar..."
-                  aria-label="Buscar"
-                />
+                <input class="form-control form-control-sm search-input" type="search" placeholder="Buscar..." aria-label="Buscar" />
               </div>
-              <a href="./login.html" class="btn btn-outline-light btn-sm"
-                >Iniciar sesión</a
-              >
-              <a href="./suscripcion.html" class="btn btn-danger btn-sm"
-                >Suscribirse</a
-              >
+              <a href="./login.html" class="btn btn-outline-light btn-sm">Iniciar sesión</a>
+              <a href="./suscripcion.html" class="btn btn-danger btn-sm">Suscribirse</a>
             </div>
           </div>
         </div>
@@ -90,9 +65,7 @@
               </div>
               <div>
                 <p class="bg-title">Dirección</p>
-                <p class="bg-direc">
-                  Av. Corrientes 1234, Piso 8, Buenos Aires, Argentina
-                </p>
+                <p class="bg-direc">Av. Corrientes 1234, Piso 8, Buenos Aires, Argentina</p>
               </div>
             </div>
             <div class="contact-item">
@@ -117,55 +90,20 @@
           <article class="col-12 col-md-6 py-4">
             <form action="./contacto.html">
               <div class="mb-3">
-                <label for="inputNombre" class="form-label bg-title"
-                  >Nombre</label
-                >
-                <input
-                  type="text"
-                  class="form-control formu"
-                  id="inputNombre"
-                  placeholder="Tu nombre"
-                  minlength="2"
-                  required
-                />
+                <label for="inputNombre" class="form-label bg-title">Nombre</label>
+                <input type="text" class="form-control formu" id="inputNombre" placeholder="Tu nombre" minlength="2" required />
               </div>
               <div class="mb-3">
-                <label for="inputEmail" class="form-label bg-title"
-                  >Email</label
-                >
-                <input
-                  type="email"
-                  class="form-control formu"
-                  id="inputEmail"
-                  placeholder="tu@email.com"
-                  required
-                />
+                <label for="inputEmail" class="form-label bg-title">Email</label>
+                <input type="email" class="form-control formu" id="inputEmail" placeholder="tu@email.com" required />
               </div>
               <div class="mb-3">
-                <label for="inputAsunto" class="form-label bg-title"
-                  >Asunto</label
-                >
-                <input
-                  type="text"
-                  class="form-control formu"
-                  id="inputAsunto"
-                  placeholder="Consulta sobre..."
-                  minlength="3"
-                  required
-                />
+                <label for="inputAsunto" class="form-label bg-title">Asunto</label>
+                <input type="text" class="form-control formu" id="inputAsunto" placeholder="Consulta sobre..." minlength="3" required />
               </div>
               <div class="mb-3">
-                <label for="inputMensaje" class="form-label bg-title"
-                  >Mensaje</label
-                >
-                <textarea
-                  class="form-control formu"
-                  id="inputMensaje"
-                  rows="4"
-                  placeholder="Escribí tu consulta aquí..."
-                  minlength="10"
-                  required
-                ></textarea>
+                <label for="inputMensaje" class="form-label bg-title">Mensaje</label>
+                <textarea class="form-control formu" id="inputMensaje" rows="4" placeholder="Escribí tu consulta aquí..." minlength="10" required></textarea>
               </div>
 
               <button type="submit" class="btn btn-danger w-100">
@@ -204,17 +142,9 @@
           <div class="col-12 col-md-4 col-lg-4 mb-4 text-center">
             <h6 class="footer-col-title">Navegación</h6>
             <ul class="list-unstyled">
-              <li>
-                <a href="./acerca-de-nosotros.html" class="footer-link"
-                  >Acerca de nosotros</a
-                >
-              </li>
-              <li>
-                <a href="./suscripcion.html" class="footer-link"
-                  >Planes y precios</a
-                >
-              </li>
-              <li><a href="./404.html" class="footer-link">Ayuda</a></li>
+              <li><a href="./acerca-de-nosotros.html" class="footer-link">Acerca de nosotros</a></li>
+              <li><a href="./suscripcion.html" class="footer-link">Planes y precios</a></li>
+              <li><a href="./contacto.html" class="footer-link">Ayuda</a></li>
             </ul>
           </div>
 
@@ -222,23 +152,16 @@
           <div class="col-12 col-md-4 col-lg-4 mb-4 text-center">
             <h6 class="footer-col-title">Contacto</h6>
             <ul class="list-unstyled">
-              <li>
-                <a href="./contacto.html" class="footer-link"
-                  >Formulario de contacto</a
-                >
-              </li>
-              <li><a href="#" class="footer-link">Soporte técnico</a></li>
-              <li><a href="#" class="footer-link">Términos de uso</a></li>
+              <li><a href="./contacto.html" class="footer-link">Consultas</a></li>
+              <li><a href="./404.html" class="footer-link">Soporte técnico</a></li>
+              <li><a href="./404.html" class="footer-link">Términos de uso</a></li>
             </ul>
           </div>
         </div>
 
         <!-- BOTTOM -->
         <div class="footer-bottom text-center">
-          <p>
-            &copy; 2026 Streamix · Todos los derechos reservados · RollingCode
-            School
-          </p>
+          <p>&copy; 2026 Streamix · Todos los derechos reservados · RollingCode School</p>
         </div>
       </div>
     </footer>
