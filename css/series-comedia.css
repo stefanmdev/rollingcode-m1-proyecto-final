@@ -1,0 +1,90 @@
+@import url("./style.css");
+
+/* --- ENCABEZADO DE LA CATEGORÍA --- */
+.titulo-categoria {
+    font-family: var(--font-primary); 
+    font-size: 1.95rem; 
+    font-weight: 700; 
+    color: var(--color-text-primary);
+    text-transform: none; 
+    letter-spacing: -0.02em; 
+}
+
+.contador-categoria {
+    font-family: var(--font-primary);
+    font-size: 0.9rem;
+    color: #b3b3b3; 
+    letter-spacing: 0.02em;
+}
+
+/* --- BOTONES DE FILTROS --- */
+.boton-filtro {
+    padding: 8px 22px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    color: var(--color-text-muted); 
+    border: 1px solid rgba(255, 255, 255, 0.15); 
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none; 
+    display: inline-block;
+}
+
+.boton-filtro:hover {
+    color: var(--color-text-primary); 
+    border-color: var(--color-text-primary);
+}
+
+.boton-filtro.activo {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary); 
+    color: #ffffff;
+}
+
+/* --- TARJETAS DE PELÍCULAS / SERIES --- */
+.tarjeta-pelicula {
+    transition: transform 0.3s ease;
+}
+
+.tarjeta-pelicula:hover {
+    transform: scale(1.04) translateY(-4px); 
+}
+
+.tarjeta-pelicula img {
+    object-fit: cover;
+}
+
+.titulo-pelicula {
+    font-family: var(--font-primary); 
+    font-size: 0.85rem; 
+    font-weight: 400; 
+    color: var(--color-text-secondary); 
+    text-transform: none; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* --- PAGINACIÓN --- */
+.pagination .boton-pagina {
+    background-color: transparent;
+    color: var(--color-text-primary);
+    border: 1px solid var(--color-border);
+    font-size: 14px;
+    padding: 8px 14px;
+    transition: all 0.3s ease;
+}
+
+.pagination .page-item.active .boton-pagina {
+    background-color: var(--color-primary) !important;
+    border-color: var(--color-primary) !important;
+    color: var(--color-text-primary) !important;
+}
+
+.pagination .boton-pagina:hover {
+    border-color: var(--color-text-primary);
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--color-text-primary);
+}
