@@ -1,0 +1,24 @@
+
+
+main{
+    p{
+        color: var(--color-text-secondary);
+    }
+}
+
+
+.person1, .person2, .person3, .person4 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.person1{ background-color: #a1111a; color: #d86e75; }
+.person2{ background-color: #1d2c5e; color: #3d5bbb; }
+.person3{ background-color: #06482a; color: #0f7949; }
+.person4{ background-color: #7e581b; color: #b68d4c; }
