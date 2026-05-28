@@ -8,7 +8,7 @@ Servicio de streaming desarrollado como proyecto grupal aplicando HTML, CSS, Boo
 
 ## 🚀 Demo
 
-[Ver sitio en Netlify](#) <!-- Reemplazar con el link real -->
+[Ver sitio en Netlify](https://streamixweb.netlify.app/) <!-- Reemplazar con el link real -->
 
 ## 📁 Repositorio
 
