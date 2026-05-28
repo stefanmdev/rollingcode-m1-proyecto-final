@@ -52,52 +52,56 @@
   margin-bottom: 1rem;
 }
 
-.hero-title {
-  font-size: 3.5rem;
-  color: #ffffff;
-  margin-bottom: 0.5rem;
-  line-height: 1.1;
+@media (max-width: 576px) {
+  .hero-video {
+    object-position: 20% top;
+  }
 }
 
-.hero-meta {
-  font-size: 0.9rem;
-  color: var(--color-text-secondary);
-  margin-bottom: 1rem;
-}
+@media (max-width: 820px) {
+  .hero-section {
+    height: 85vh;
+    align-items: flex-end;
+  }
 
-.hero-description {
-  font-size: 1rem;
-  color: var(--color-text-secondary);
-  margin-bottom: 1.5rem;
-  max-width: 500px;
-}
+  .hero-video {
+    object-position: right center;
+  }
 
-.hero-actions {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
+  .hero-overlay {
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.95) 0%,
+      rgba(0, 0, 0, 0.6) 50%,
+      rgba(0, 0, 0, 0.2) 100%
+    );
+  }
 
-.hero-btn-play {
-  background-color: #ffffff;
-  color: #000000;
-  font-weight: 600;
-}
+  .hero-content {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-bottom: 2rem;
+    padding-top: 0;
+    max-width: 100%;
+  }
 
-.hero-btn-play:hover {
-  background-color: rgba(255, 255, 255, 0.85);
-  color: #000000;
-}
+  .hero-title {
+    font-size: 1.8rem;
+  }
 
-.hero-btn-info {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #ffffff;
-  border: none;
-}
+  .hero-meta {
+    font-size: 0.75rem;
+  }
 
-.hero-btn-info:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-  color: #ffffff;
+  .hero-description {
+    font-size: 0.85rem;
+    max-width: 100%;
+  }
+
+  .hero-actions .btn {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
 }
 
 /* ===== MOVIES SECTION ===== */
