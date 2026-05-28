@@ -55,10 +55,157 @@
       </nav>
     </header>
     <main>
-      <!-- contenido va acá -->
+      <!-- DETALLE DE LA SERIE -->
+      <section class="container pt-5">
+        <div class="d-flex flex-column flex-lg-row gap-4">
+          <div class="col-12 col-md-4 col-lg-3 text-center text-md-start">
+            <div class="position-relative d-inline-block w-100 serie-poster">
+              <img src="https://image.tmdb.org/t/p/w1280/rkKCSlr8OH5tbKEdgwtzvEiemrl.jpg" class="w-100 h-100 object-fit-cover rounded shadow" alt="Portada Friends" />
+            </div>
+          </div>
+
+          <div class="d-flex flex-column">
+            <p class="text-center cartel-serie rounded-1">SERIE</p>
+            <h2>Friends</h2>
+            <div class="d-flex align-items-center gap-2 text-secondary small">
+              <span>1994</span>
+              <span>•</span>
+              <span>Comedia / Drama</span>
+              <span>•</span>
+              <span>10 Temporadas</span>
+            </div>
+            <p class="serie-descripcion pt-2 pb-2">
+              Seis amigos navegan la vida adulta en Nueva York, entre el amor, el trabajo y las risas. Una de las series más icónicas y queridas de todos los tiempos.
+            </p>
+            <div class="d-flex flex-row gap-2 mb-3">
+              <p class="rounded-5 color-bordes">Comedia</p>
+              <p class="rounded-5 color-bordes">Drama</p>
+              <p class="rounded-5 color-bordes">Romance</p>
+            </div>
+            <div class="d-flex gap-2">
+              <button class="btn bg-white d-flex gap-1 color-play"><i class="bi bi-play-fill"></i>Reproducir</button>
+              <button class="btn color-mi-lista text-white d-flex gap-1"><i class="bi bi-plus"></i>Mi lista</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CAPÍTULOS -->
+      <section class="container mt-5">
+        <h3 class="mb-4">Capítulos — Temporada 1</h3>
+        <div class="episodios-lista">
+          <div class="episodio-item">
+            <span class="ep-numero">1</span>
+            <img src="https://www.themoviedb.org/t/p/w1280/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg" alt="Episodio 1" class="ep-thumb" />
+            <div class="ep-info">
+              <p class="ep-titulo">El día que Mónica consigue compañera de piso</p>
+              <span class="ep-duracion">22 min</span>
+            </div>
+          </div>
+
+          <div class="episodio-item">
+            <span class="ep-numero">2</span>
+            <img src="https://www.themoviedb.org/t/p/w1280/3SS00ajNciI1NTzL6NpW5GxlAU4.jpg" alt="Episodio 2" class="ep-thumb" />
+            <div class="ep-info">
+              <p class="ep-titulo">El de la ecografía al final</p>
+              <span class="ep-duracion">22 min</span>
+            </div>
+          </div>
+
+          <div class="episodio-item">
+            <span class="ep-numero">3</span>
+            <img src="https://www.themoviedb.org/t/p/w1280/x8W8I6J8HxPwuYqkMUFuqhWdpUm.jpg" alt="Episodio 3" class="ep-thumb" />
+            <div class="ep-info">
+              <p class="ep-titulo">El del Pulgar</p>
+              <span class="ep-duracion">22 min</span>
+            </div>
+          </div>
+
+          <div class="episodio-item">
+            <span class="ep-numero">4</span>
+            <img src="https://www.themoviedb.org/t/p/w1280/f496cm9enuEsZkSPzCwnTESEK5s.jpg" alt="Episodio 4" class="ep-thumb" />
+            <div class="ep-info">
+              <p class="ep-titulo">El episodio con George Stephanopoulos</p>
+              <span class="ep-duracion">22 min</span>
+            </div>
+          </div>
+
+          <div class="episodio-item">
+            <span class="ep-numero">5</span>
+            <img src="https://www.themoviedb.org/t/p/w1280/eGjjrOMUZFlKfDBL7JAq9kP8Gik.jpg" alt="Episodio 5" class="ep-thumb" />
+            <div class="ep-info">
+              <p class="ep-titulo">El del detergente para ropa de Alemania Oriental</p>
+              <span class="ep-duracion">22 min</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERIES RELACIONADAS -->
+      <section class="color-fondo-sugerencia p-4 mt-5">
+        <p class="container mb-3">Series relacionadas</p>
+        <div class="tarjetas-contenedor container">
+          <div class="tarjeta">
+            <div class="tarjeta-imagen-contenedor">
+              <img src="https://www.themoviedb.org/t/p/w1280/AvxlfUW8OVQ630v7Se1mesDYbfW.jpg" alt="Cougar Town" />
+            </div>
+            <div class="tarjeta-pie">Cougar Town</div>
+          </div>
+          <div class="tarjeta">
+            <div class="tarjeta-imagen-contenedor">
+              <img src="https://image.tmdb.org/t/p/w500/pB9L0jAnEQLMKgexqCEocEW8TA.jpg" alt="Bojack Horseman" />
+            </div>
+            <div class="tarjeta-pie">Bojack Horseman</div>
+          </div>
+          <div class="tarjeta">
+            <div class="tarjeta-imagen-contenedor">
+              <img src="https://www.themoviedb.org/t/p/w1280/aCw8ONfyz3AhngVQa1E2Ss4KSUQ.jpg" alt="Seinfeld" />
+            </div>
+            <div class="tarjeta-pie">Seinfeld</div>
+          </div>
+          <div class="tarjeta">
+            <div class="tarjeta-imagen-contenedor">
+              <img src="https://image.tmdb.org/t/p/w500/clnyhPqj1SNgpAdeSS6a6fwE6Bo.jpg" alt="Modern Family" />
+            </div>
+            <div class="tarjeta-pie">Modern Family</div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer>
-      <!-- footer va acá -->
+    <footer class="footer-streamix">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-4 mb-4 text-center">
+            <a class="navbar-brand" href="../index.html">STREAMIX</a>
+            <p class="footer-tagline mt-2">Tu entretenimiento, sin límites.</p>
+            <div class="d-flex gap-2 mt-3 justify-content-center w-100">
+              <a href="#" class="footer-social-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="footer-social-icon" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+              <a href="#" class="footer-social-icon" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="footer-social-icon" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-4 text-center">
+            <h6 class="footer-col-title">Navegación</h6>
+            <ul class="list-unstyled">
+              <li><a href="./acerca-de-nosotros.html" class="footer-link">Acerca de nosotros</a></li>
+              <li><a href="./suscripcion.html" class="footer-link">Planes y precios</a></li>
+              <li><a href="./404.html" class="footer-link">Ayuda</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 mb-4 text-center">
+            <h6 class="footer-col-title">Contacto</h6>
+            <ul class="list-unstyled">
+              <li><a href="./contacto.html" class="footer-link">Formulario de contacto</a></li>
+              <li><a href="#" class="footer-link">Soporte técnico</a></li>
+              <li><a href="#" class="footer-link">Términos de uso</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom text-center">
+          <p>&copy; 2026 Streamix · Todos los derechos reservados · RollingCode School</p>
+        </div>
+      </div>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
